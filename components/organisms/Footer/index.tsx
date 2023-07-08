@@ -4,10 +4,11 @@ import Typography from "@atoms/Typography"
 import Padding from "@atoms/Padding"
 import Image from "next/image"
 import JeiomLogo_02 from "public/JeiomLogo_02.png"
+import CookiePolicy from "@/components/atoms/CookiePolicy"
 
 const Footer: FC<FooterProps> = ({}) => {
   return (
-    <div>
+    <div className="mt-[50px] tablet:mt-[80px]">
       <footer className="w-screen">
         <div className="flex justify-center pb-[33px]">
           <div className="w-[102px] h-[32px] tablet:w-[202px] tablet:h-[63px] laptop:w-[228px] laptop:h-[55px]">
@@ -22,9 +23,9 @@ const Footer: FC<FooterProps> = ({}) => {
         </div>
         <div className="flex justify-around">
           <div className="w-[200px] flex justify-center items-center">
-            <Typography variant="h4">
-              <a href="#">Privacy Policy</a>
-            </Typography>
+            <a href="#">
+              <CookiePolicy />
+            </a>
           </div>
           <div className="w-[200px] flex justify-center items-center">
             <Typography variant="h4">

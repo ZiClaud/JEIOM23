@@ -7,7 +7,8 @@ import Button from "@atoms/Button"
 
 const Hero: FC<HeroProps> = ({}) => {
   return (
-    <div className="w-screen h-screen tablet:h-fit flex flex-col px-5 laptop:px-[132px] py-[65px] tablet:pt-[73px] laptop:pt-[128px] tablet:items-center">
+    <div
+      className="w-screen h-screen flex flex-col px-5 laptop:px-[132px] py-[65px] tablet:pt-[73px] laptop:pt-[128px] tablet:items-center">
       <div className="w-full px-4 tablet:px-[126px] flex flex-col justify-between gap-[6px]">
         <Typography variant="hero" className="text-start">
           JEIOM
@@ -20,7 +21,7 @@ const Hero: FC<HeroProps> = ({}) => {
         <Image
           src={Logo}
           alt="Logo"
-          className="tablet:w-[336px] laptop:w-[362px]"
+          className="tablet:w-[336px] laptop:w-[600px]"
         />
       </div>
       <Typography variant="p" className="uppercase text-end tablet:hidden">
@@ -28,8 +29,9 @@ const Hero: FC<HeroProps> = ({}) => {
         <br />
         modena
       </Typography>
-      <div className="flex flex-col mt-[26px] items-center fixed z-[20] bottom-6 inset-x-0 tablet:hidden">
-        <Button>Iscriviti</Button>
+      <div
+        className="flex flex-col mt-[26px] items-center fixed z-[20] bottom-[105px] inset-x-0 tablet:hidden scale-125">
+        <Button url="https://apply.jeiom23.it/">Iscriviti</Button>
       </div>
       <div className="tablet:flex flex-row justify-between w-full px-12 hidden">
         <Typography variant="p" className="uppercase text-start">
@@ -37,8 +39,8 @@ const Hero: FC<HeroProps> = ({}) => {
           <br />
           modena
         </Typography>
-        <div className="flex flex-col items-center z-[20] fixed bottom-[44px] right-[125px]">
-          <Button>Iscriviti</Button>
+        <div className="flex flex-col items-center z-[20] fixed bottom-[100px] right-[125px] scale-125">
+          <Button url="https://apply.jeiom23.it/">Iscriviti</Button>
         </div>
       </div>
     </div>

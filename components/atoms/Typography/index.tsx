@@ -114,6 +114,17 @@ const Typography: FC<TypographyProps> = ({ children, variant, className }) => {
           {children}
         </p>
       )
+    case "privacy":
+      return (
+        <p
+          className={classNames(
+            "antialiased font-normal text-black text-[15px]",
+            className ?? ""
+          )}
+        >
+          {children}
+        </p>
+      )
   }
 }
 

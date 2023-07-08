@@ -18,7 +18,7 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        map: "url('../public/invisible.svg')",
+        map: "url('../public/mappaModena.webp')",
         hero: "url('../public/Hero.svg')",
         "hero-mob": "url('../public/Hero-mob.svg')",
         banner: "url('../public/Banner.jpg')",

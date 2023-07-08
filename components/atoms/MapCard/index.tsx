@@ -9,6 +9,7 @@ const MapCard: FC<MapCardProps> = ({
   address,
   addressUrl,
   imageUrl,
+  description
 }) => {
   return (
     <div className="w-[133px] z-10 tablet:w-[205px] laptop:w-[225px] h-full tablet:h-[135px] laptop:h-[155px] bg-white rounded-lg">
@@ -22,11 +23,14 @@ const MapCard: FC<MapCardProps> = ({
             >
               {title}
             </Typography>
-            <a href={addressUrl} target="_blank">
+            <Typography variant="label">
+              {description}
+            </Typography>
+            {/*<a href={addressUrl} target="_blank">
               <Typography variant="label" className="underline">
                 {address}
               </Typography>
-            </a>
+            </a>*/}
           </div>
         </div>
         <Image src={imageUrl} alt={title} className="rounded-lg" />

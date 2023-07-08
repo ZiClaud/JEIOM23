@@ -16,6 +16,7 @@ const MapPopover: FC<MapPopoverProps> = ({
   isClicked,
   onClick,
   id,
+  description
 }) => {
   const handleToggleCard = () => {
     if (isClicked) {
@@ -36,7 +37,7 @@ const MapPopover: FC<MapPopoverProps> = ({
               : "opacity-100 transition-opacity duration-200"
           }`}
         >
-          <Image src={Logo} alt="Logo" className="z-[0]" />
+          <Image src={Logo} alt="Logo" className="z-[0] w-[20px] tablet:w-[30px] laptop:w-[40px]" />
           <Typography variant="label" className="text-white font-medium ">
             {title}
           </Typography>
@@ -62,6 +63,7 @@ const MapPopover: FC<MapPopoverProps> = ({
               address={address}
               addressUrl={addressUrl}
               imageUrl={imageUrl}
+              description={description}
             />
           </div>
         </Transition>

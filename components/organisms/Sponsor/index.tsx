@@ -4,7 +4,7 @@ import Typography from "@atoms/Typography"
 import Layout from "../../atoms/Layout"
 import Padding from "@atoms/Padding"
 import Image from "next/image"
-import SponsorImage from "public/invisible.svg"
+import SponsorImage from "public/vercel.svg"
 
 const Sponsor: FC<SponsorProps> = ({className}) => {
   return <Layout className={className}>

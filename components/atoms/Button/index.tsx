@@ -9,6 +9,7 @@ const Button: FC<ButtonProps> = ({ url, children }) => {
     <a
       href={url}
       className="w-[138px] h-12 transition duration-500 ease-in-out hover:scale-105 hover:-translate-y-1"
+      target="_blank"
     >
       <div className="bg-white rounded-xl">
         <div className="flex flex-row px-4 justify-between items-center">

@@ -18,7 +18,7 @@ const Banner: FC<BannerProps> = ({}) => {
           Hai bisogno di aiuto?
         </Typography>
       </div>
-      <Button url="mailto:info@jeiom23.it">Contattaci</Button>
+      <Button url="mailto:info@jeiom23.it">info@jeiom23.it</Button>
     </div>
   )
 }

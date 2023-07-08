@@ -1,9 +1,9 @@
 import React, { FC } from "react"
 import PatrociniProps from "./index.types"
 import Typography from "@atoms/Typography"
-import logoComune from "public/logoComuneWhite.svg"
-import logoRegione from "public/logoRegioneWhite.svg"
-import logoUnimore from "public/logoUnimoreWhite.svg"
+import logoComune from "public/logoComuneWhite.webp"
+import logoRegione from "public/logoRegioneWhite.webp"
+import logoUnimore from "public/logoUnimoreWhite.webp"
 import Image from "next/image"
 import Padding from "@atoms/Padding"
 
@@ -14,7 +14,7 @@ const Patrocini: FC<PatrociniProps> = ({}) => {
     <div
       className="flex w-full flex-col justify-evenly items-center tablet:flex-row">
       <div
-        className="h-[120px] tablet:h-[60px] w-[200px] tablet:w-[250px] laptop:w-[300px] flex justify-center pb-[30px] tablet:pb-[0px]">
+        className="h-auto tablet:h-[60px] w-[200px] tablet:w-[250px] laptop:w-[300px] flex justify-center pb-[30px] tablet:pb-[0px]">
         <Image
           src={logoComune}
           alt="Comune di Modena"
@@ -24,7 +24,7 @@ const Patrocini: FC<PatrociniProps> = ({}) => {
         />
       </div>
       <div
-        className="h-[120px] tablet:h-[60px] w-[200px] tablet:w-[250px] laptop:w-[300px] flex justify-center pb-[30px] tablet:pb-[0px]">
+        className="h-auto tablet:h-[60px] w-[200px] tablet:w-[250px] laptop:w-[300px] flex justify-center pb-[30px] tablet:pb-[0px]">
         <Image
           src={logoRegione}
           alt="Regione Emilia Romagna"
@@ -34,7 +34,7 @@ const Patrocini: FC<PatrociniProps> = ({}) => {
         />
       </div>
       <div
-        className="h-[120px] tablet:h-[60px] w-[200px] tablet:w-[250px] laptop:w-[300px] flex justify-center pb-[30px] tablet:pb-[0px]">
+        className="h-auto tablet:h-[60px] w-[200px] tablet:w-[250px] laptop:w-[300px] flex justify-center pb-[30px] tablet:pb-[0px]">
         <Image
           src={logoUnimore}
           alt="UniMoRe"

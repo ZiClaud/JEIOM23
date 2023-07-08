@@ -17,13 +17,13 @@ const AboutUs: FC<AboutUsProps> = ({}) => {
         <JeLogos />
         <Padding />
         <Typography variant="p" className="pt-5 text-center">
-          JEToP e JEMORE sono due Junior Enterprise, rispettivamente del
-          Politecnico di Torino e dell&apos;Università di Modena e Reggio
-          Emilia.
+          <strong>JEToP</strong> e <strong>JEMORE</strong>, le Junior Enterprise del Politecnico di <strong>Torino</strong> e
+          dell&apos;Università di <strong>Modena e Reggio Emilia</strong>,<br />uniscono le proprie
+          forze per organizzare uno degli <strong>eventi più importanti</strong> del Network italiano.
           <br />
-          La collaborazione tra le due nasce dalla voglia di unire idee,
-          esperienze, risorse differenti e complementari, al fine di organizzare
-          un evento senza precedenti!
+          Il connubio tra le <strong>competenze IT</strong> che contraddistinguono le due JE,<br/>e le <strong>diversità culinarie</strong> delle nostre
+          regioni italiane <br/>hanno dato vita al <strong>tema dell&apos;evento:</strong><br/> il <strong>Food Tech</strong>.
+
         </Typography>
         <Padding />
       </Layout>
