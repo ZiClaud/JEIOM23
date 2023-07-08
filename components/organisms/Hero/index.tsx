@@ -8,7 +8,7 @@ import Button from "@atoms/Button"
 const Hero: FC<HeroProps> = ({}) => {
   return (
     <div
-      className="w-screen h-screen flex flex-col px-5 laptop:px-[132px] py-[65px] tablet:pt-[73px] laptop:pt-[128px] tablet:items-center">
+      className="w-screen h-min-[100vh] flex flex-col px-5 laptop:px-[132px] py-[65px] tablet:pt-[73px] laptop:pt-[128px] tablet:items-center">
       <div className="w-full px-4 tablet:px-[126px] flex flex-col justify-between gap-[6px]">
         <Typography variant="hero" className="text-start">
           JEIOM
