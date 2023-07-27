@@ -6,7 +6,7 @@ import JEMORELogo from "public/jemoreLogo.svg"
 
 const JeLogos: FC<JeLogosProps> = ({}) => {
   return (
-    <div className="flex flex-col justify-around items-around -mt-[150px] laptop:mt-0">
+    <div className="flex flex-col justify-around items-around  laptop:mt-0">
       <div className="flex justify-around items-center">
         <a href="https://jetop.com/" target="_blank" rel="noopener noreferrer">
           <div className="hover:scale-110 transition">

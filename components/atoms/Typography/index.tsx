@@ -9,7 +9,7 @@ const Typography: FC<TypographyProps> = ({ children, variant, className }) => {
         <h1
           className={classNames(
             "antialiased font-normal text-white uppercase leading-none text-[50px] tablet:text-[50px] laptop:text-[96px]",
-            className ?? ""
+            className ?? "",
           )}
         >
           {children}
@@ -19,8 +19,8 @@ const Typography: FC<TypographyProps> = ({ children, variant, className }) => {
       return (
         <h1
           className={classNames(
-            "antialiased font-semibold text-white text-[26px] tablet:text-[50px] laptop:text-[96px]",
-            className ?? ""
+            "antialiased font-semibold text-white text-[37px] tablet:text-[37px] laptop:text-[45px]",
+            className ?? "",
           )}
         >
           {children}
@@ -31,7 +31,7 @@ const Typography: FC<TypographyProps> = ({ children, variant, className }) => {
         <h2
           className={classNames(
             "antialiased font-semibold text-white text-[26px] tablet:text-[50px] laptop:text-[64px] text-center",
-            className ?? ""
+            className ?? "",
           )}
         >
           {children}
@@ -42,7 +42,7 @@ const Typography: FC<TypographyProps> = ({ children, variant, className }) => {
         <h3
           className={classNames(
             "antialiased font-normal text-white text-[49px] tablet:text-[36px] laptop:text-[55px]",
-            className ?? ""
+            className ?? "",
           )}
         >
           {children}
@@ -53,7 +53,7 @@ const Typography: FC<TypographyProps> = ({ children, variant, className }) => {
         <h4
           className={classNames(
             "antialiased font-normal text-white text-[8px] tablet:text-[12px] laptop:text-[16px] leading-[16px]",
-            className ?? ""
+            className ?? "",
           )}
         >
           {children}
@@ -64,7 +64,7 @@ const Typography: FC<TypographyProps> = ({ children, variant, className }) => {
         <p
           className={classNames(
             "antialiased font-semibold leading-none text-[12px] tablet:text-[14px] laptop:text-[16px]",
-            className ?? ""
+            className ?? "",
           )}
         >
           {children}
@@ -75,18 +75,7 @@ const Typography: FC<TypographyProps> = ({ children, variant, className }) => {
         <p
           className={classNames(
             "antialiased font-normal text-black text-[9px] tablet:text-[14px] laptop:text-[16px]",
-            className ?? ""
-          )}
-        >
-          {children}
-        </p>
-      )
-    case "label":
-      return (
-        <p
-          className={classNames(
-            "antialiased font-normal text-black text-[9px] tablet:text-[14px] laptop:text-[16px]",
-            className ?? ""
+            className ?? "",
           )}
         >
           {children}
@@ -97,7 +86,7 @@ const Typography: FC<TypographyProps> = ({ children, variant, className }) => {
         <p
           className={classNames(
             "antialiased font-normal text-black text-[20px] tablet:text-[17px] laptop:text-[20px]",
-            className ?? ""
+            className ?? "",
           )}
         >
           {children}
@@ -108,7 +97,7 @@ const Typography: FC<TypographyProps> = ({ children, variant, className }) => {
         <p
           className={classNames(
             "antialiased font-normal text-white text-[20px] tablet:text-[17px] laptop:text-[20px]",
-            className ?? ""
+            className ?? "",
           )}
         >
           {children}
@@ -119,7 +108,7 @@ const Typography: FC<TypographyProps> = ({ children, variant, className }) => {
         <p
           className={classNames(
             "antialiased font-normal text-black text-[15px]",
-            className ?? ""
+            className ?? "",
           )}
         >
           {children}

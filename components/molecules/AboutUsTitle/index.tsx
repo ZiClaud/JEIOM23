@@ -1,6 +1,5 @@
 import React, { FC, useEffect, useState } from "react"
 import AboutUsTitleProps from "./index.types"
-import Typography from "@atoms/Typography"
 import Image from "next/image"
 
 const AboutUsTitle: FC<AboutUsTitleProps> = ({}) => {
@@ -18,13 +17,13 @@ const AboutUsTitle: FC<AboutUsTitleProps> = ({}) => {
   }, [])
 
   function getTitlePosition() {
-    return positionTop / 60 - 45
+    return positionTop / 60 - 80
     //TODO: Change the "45" to a higher number to move text to the left, and to a lower number to move text to the right
     //TODO: Change "60" to a higher number to slow down text, and to a lower number to speed up text
   }
 
   return (
-    <div className="w-screen h-[400px]">
+    <div className="w-screen h-[400px] laptop:mb-20">
       <div style={{ overflowX: "clip" }}>
         <div
           className="flex whitespace-nowrap items-center"
@@ -32,9 +31,10 @@ const AboutUsTitle: FC<AboutUsTitleProps> = ({}) => {
             transform: `translate(${getTitlePosition()}%, 150px) scale3d(1, 1, 1) rotateZ(356deg)`,
           }}
         >
-          <Typography variant="h1" className="text-center -mr-2 tablet:-mr-6">
+          <h1
+            className="text-center -mr-2 tablet:-mr-6 text-[27px] tablet:text-[50px] laptop:text-[96px] font-semibold">
             CHI SIAMO
-          </Typography>
+          </h1>
           <Image
             className="h-8 w-8 tablet:h-12 tablet:w-16  laptop:h-20 laptop:w-20"
             src="/firstSpire.svg"
@@ -43,12 +43,12 @@ const AboutUsTitle: FC<AboutUsTitleProps> = ({}) => {
             height={66}
             priority
           />
-          <Typography
-            variant="h1"
-            className="text-center -ml-2 -mr-2 tablet:-ml-6 tablet:-mr-6"
+          <h1
+
+            className="text-center -ml-2 -mr-2 tablet:-ml-6 tablet:-mr-6 text-[27px] tablet:text-[50px] laptop:text-[96px] font-semibold"
           >
             CHI SIAMO
-          </Typography>
+          </h1>
           <Image
             className="h-8 w-8 tablet:h-12 tablet:w-16  laptop:h-20 laptop:w-20"
             src="/secondSpire.svg"
@@ -57,12 +57,12 @@ const AboutUsTitle: FC<AboutUsTitleProps> = ({}) => {
             height={73}
             priority
           />
-          <Typography
-            variant="h1"
-            className="text-center -ml-2 -mr-2 tablet:-ml-6 tablet:-mr-6"
+          <h1
+
+            className="text-center -ml-2 -mr-2 tablet:-ml-6 tablet:-mr-6 text-[27px] tablet:text-[50px] laptop:text-[96px] font-semibold"
           >
             CHI SIAMO
-          </Typography>
+          </h1>
           <Image
             className="h-8 w-8 tablet:h-12 tablet:w-16  laptop:h-20 laptop:w-20"
             src="/thirdSpire.svg"
@@ -70,9 +70,10 @@ const AboutUsTitle: FC<AboutUsTitleProps> = ({}) => {
             width={101}
             height={74}
           />
-          <Typography variant="h1" className="text-center -ml-2 tablet:-ml-6 -mr-2 tablet:-mr-6">
+          <h1
+            className="text-center -ml-2 tablet:-ml-6 -mr-2 tablet:-mr-6 text-[27px] tablet:text-[50px] laptop:text-[96px] font-semibold">
             CHI SIAMO
-          </Typography>
+          </h1>
           <Image
             className="h-8 w-8 tablet:h-12 tablet:w-16  laptop:h-20 laptop:w-20"
             src="/firstSpire.svg"
@@ -81,9 +82,10 @@ const AboutUsTitle: FC<AboutUsTitleProps> = ({}) => {
             height={66}
             priority
           />
-          <Typography variant="h1" className="text-center -ml-2 tablet:-ml-6">
+          <h1
+            className="text-center -ml-2 tablet:-ml-6 text-[27px] tablet:text-[50px] laptop:text-[96px] font-semibold">
             CHI SIAMO
-          </Typography>
+          </h1>
         </div>
       </div>
     </div>

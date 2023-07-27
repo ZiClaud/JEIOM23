@@ -8,6 +8,8 @@ import Hero from "@organisms/Hero"
 import Patrocini from "@organisms/Patrocini"
 
 import SustainableDevelopment from "@molecules/SustainableDevelopment"
+import EventDescription from "@organisms/EventDescription"
+import Mission from "@molecules/Mission"
 export default function Home() {
   return (
     <main className="relative w-screen flex flex-col items-center justify-between bg-black-jeiom">
@@ -18,6 +20,8 @@ export default function Home() {
         <Hero />
       </div>
 
+      <EventDescription />
+      <Mission/>
       <SustainableDevelopment />
       <Map />
       <AboutUs />
