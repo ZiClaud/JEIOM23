@@ -2,8 +2,8 @@
 
 import React, { FC, useState } from "react"
 import BannerProps from "./index.types"
-import Typography from "@/components/atoms/Typography"
-import Button from "@/components/atoms/Button"
+import Typography from "@atoms/Typography"
+import Button from "@atoms/Button"
 
 const Banner: FC<BannerProps> = ({}) => {
   const [isOpen, setisOpen] = useState(true)
@@ -18,7 +18,9 @@ const Banner: FC<BannerProps> = ({}) => {
           Hai bisogno di aiuto?
         </Typography>
       </div>
-      <Button url="mailto:info@jeiom23.it">info@jeiom23.it</Button>
+      <Button url="mailto:info@jeiom23.it" useUrl={true}>
+        info@jeiom23.it
+      </Button>
     </div>
   )
 }

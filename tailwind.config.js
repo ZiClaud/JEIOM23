@@ -22,11 +22,15 @@ module.exports = {
         hero: "url('../public/Hero.svg')",
         "hero-mob": "url('../public/Hero-mob.svg')",
         banner: "url('../public/Banner.jpg')",
+        worm: "url('../public/MainSponsorWorm.webp')",
+        "main-worm": "url('../public/MainWorm.webp')",
+        contact: "url('../public/ContactWorm.webp')",
+        "center-worm": "url('../public/photoshero.webp')",
       },
       colors: {
         "black-jeiom": "#0C0C0C",
       },
     },
   },
-  plugins: [],
+  plugins: [require("@headlessui/tailwindcss")],
 }

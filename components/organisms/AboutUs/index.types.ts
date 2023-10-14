@@ -1,1 +1,2 @@
-export default interface AboutUsProps { }
+export default interface AboutUsProps {
+}

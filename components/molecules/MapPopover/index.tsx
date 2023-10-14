@@ -1,10 +1,10 @@
 "use client"
 
-import React, { FC, useState } from "react"
+import React, { FC } from "react"
 import MapPopoverProps from "./index.types"
 import { Transition } from "@headlessui/react"
-import Typography from "@/components/atoms/Typography"
-import MapCard from "@/components/atoms/MapCard"
+import Typography from "@atoms/Typography"
+import MapCard from "@atoms/MapCard"
 import Image from "next/image"
 import Logo from "../../../public/logoJeiom.svg"
 
@@ -16,7 +16,7 @@ const MapPopover: FC<MapPopoverProps> = ({
   isClicked,
   onClick,
   id,
-  description
+  description,
 }) => {
   const handleToggleCard = () => {
     if (isClicked) {
@@ -37,7 +37,11 @@ const MapPopover: FC<MapPopoverProps> = ({
               : "opacity-100 transition-opacity duration-200"
           }`}
         >
-          <Image src={Logo} alt="Logo" className="z-[0] w-[20px] tablet:w-[30px] laptop:w-[40px]" />
+          <Image
+            src={Logo}
+            alt="Logo"
+            className="z-[0] w-[20px] tablet:w-[30px] laptop:w-[40px]"
+          />
           <Typography variant="label" className="text-white font-medium ">
             {title}
           </Typography>

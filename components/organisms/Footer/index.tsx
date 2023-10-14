@@ -4,14 +4,14 @@ import Typography from "@atoms/Typography"
 import Padding from "@atoms/Padding"
 import Image from "next/image"
 import JeiomLogo_02 from "public/JeiomLogo_02.png"
-import CookiePolicy from "@/components/atoms/CookiePolicy"
+import CookiePolicy from "@atoms/CookiePolicy"
 
 const Footer: FC<FooterProps> = ({}) => {
   return (
-    <div className="mt-[50px] tablet:mt-[80px]">
+    <div className="mt-[50px] tablet:mt-[80px] z-10">
       <footer className="w-screen">
         <div className="flex justify-center pb-[33px]">
-          <div className="w-[102px] h-[32px] tablet:w-[202px] tablet:h-[63px] laptop:w-[228px] laptop:h-[55px]">
+          <div className="w-[102px] h-[32px] tablet:w-[202px] tablet:h-[63px] laptop:w-[228px] laptop:h-[55px] z-10">
             <Image
               src={JeiomLogo_02}
               alt="Logo JEIOM"
@@ -22,14 +22,15 @@ const Footer: FC<FooterProps> = ({}) => {
           </div>
         </div>
         <div className="flex justify-around">
-          <div className="w-[200px] flex justify-center items-center">
+          <div className="w-[200px] flex justify-center items-center z-10">
             <a href="#">
               <CookiePolicy />
             </a>
           </div>
-          <div className="w-[200px] flex justify-center items-center">
+          <div className="w-[200px] flex justify-center text-center items-center z-10">
             <Typography variant="h4">
-              By{" "}
+              Powered by
+              <br />{" "}
               <a href="https://www.jetop.com/" target="_blank">
                 <u>JEToP</u>{" "}
               </a>{" "}
@@ -39,7 +40,7 @@ const Footer: FC<FooterProps> = ({}) => {
               </a>
             </Typography>
           </div>
-          <div className="w-[200px] flex justify-center items-center">
+          <div className="w-[200px] flex justify-center items-center z-10">
             <Typography variant="h4">
               <a href="mailto:info@jeiom23.it">info@jeiom23.it</a>
             </Typography>

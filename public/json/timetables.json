@@ -1,0 +1,225 @@
+{
+  "13": [
+    {
+      "titolo": "Check-in",
+      "descrizione": "Hotel Tiby",
+      "inizio": "13:00",
+      "durata": 1.5,
+      "color": "#0ABAB5",
+      "url": "https://goo.gl/maps/BT9mweSuVankRw3E7"
+    },
+    {
+      "titolo": "Opening Ceremony",
+      "descrizione": "Camera di Commercio",
+      "url": "https://goo.gl/maps/EByf3FbYDy6GKpgq9",
+      "inizio": "14:30",
+      "durata": 1,
+      "color": "#00C3FF"
+    },
+    {
+      "titolo": "Panel",
+      "descrizione": "Camera di Commercio",
+      "url": "https://goo.gl/maps/EByf3FbYDy6GKpgq9",
+      "inizio": "15:30",
+      "durata": 1,
+      "color": "#ffcc00"
+    },
+    {
+      "titolo": "Speech Main Partners",
+      "descrizione": "Camera di Commercio",
+      "url": "https://goo.gl/maps/EByf3FbYDy6GKpgq9",
+      "inizio": "16:30",
+      "durata": 0.5,
+      "color": "#00C3FF"
+    },
+    {
+      "titolo": "Coffee Break",
+      "descrizione": "Camera di Commercio",
+      "url": "https://goo.gl/maps/EByf3FbYDy6GKpgq9",
+      "inizio": "17:00",
+      "durata": 0.5,
+      "color": "#ff8400"
+    },
+    {
+      "titolo": "Workshop #1",
+      "descrizione": "Camera di Commercio",
+      "url": "https://goo.gl/maps/EByf3FbYDy6GKpgq9",
+      "inizio": "17:30",
+      "durata": 1,
+      "color": "#ffcc00"
+    },
+    {
+      "titolo": "blank",
+      "descrizione": "Dipartimento di Giurisprudenza",
+      "url": "https://goo.gl/maps/woACERYZu9brvvdVA",
+      "inizio": "18:30",
+      "durata": 0.5,
+      "color": "#005BFF"
+    },
+    {
+      "titolo": "Dinner",
+      "descrizione": "Camera di Commercio",
+      "url": "https://goo.gl/maps/EByf3FbYDy6GKpgq9",
+      "inizio": "19:00",
+      "durata": 1.5,
+      "color": "#ff8400"
+    },
+    {
+      "titolo": "blank",
+      "descrizione": "Dipartimento di Giurisprudenza",
+      "url": "https://goo.gl/maps/woACERYZu9brvvdVA",
+      "inizio": "20:30",
+      "durata": 0.1,
+      "color": "#005BFF"
+    }
+  ],
+  "14": [
+    {
+      "titolo": "Breakfast",
+      "descrizione": "Hotel Tiby",
+      "inizio": "8:00",
+      "durata": 2,
+      "color": "#ff8400",
+      "url": "https://goo.gl/maps/BT9mweSuVankRw3E7"
+    },
+    {
+      "titolo": "Business Game",
+      "descrizione": "Dipartimento di Giurisprudenza",
+      "url": "https://goo.gl/maps/woACERYZu9brvvdVA",
+      "inizio": "10:00",
+      "durata": 3,
+      "color": "#A56CFF"
+    },
+    {
+      "titolo": "Lunch",
+      "descrizione": "Piazza Matteotti",
+      "inizio": "13:00",
+      "durata": 1.5,
+      "color": "#ff8400",
+      "url": "https://goo.gl/maps/7rqwtyxXPa81rNd39"
+    },
+    {
+      "titolo": "Workshop #2",
+      "descrizione": "Dipartimento di Giurisprudenza",
+      "url": "https://goo.gl/maps/woACERYZu9brvvdVA",
+      "inizio": "14:30",
+      "durata": 1,
+      "color": "#ffcc00"
+    },
+    {
+      "titolo": "Coffee Break",
+      "descrizione": "Dipartimento di Giurisprudenza",
+      "url": "https://goo.gl/maps/woACERYZu9brvvdVA",
+      "inizio": "15:30",
+      "durata": 0.5,
+      "color": "#ff8400"
+    },
+    {
+      "titolo": "Company Fair",
+      "descrizione": "Dipartimento di Giurisprudenza",
+      "url": "https://goo.gl/maps/woACERYZu9brvvdVA",
+      "inizio": "16:00",
+      "durata": 1.5,
+      "color": "#0062FF"
+    },
+    {
+      "titolo": "Free time",
+      "descrizione": "",
+      "url": "",
+      "inizio": "17:30",
+      "durata": 2,
+      "color": "#F1A7DC"
+    },
+    {
+      "titolo": "Bus Transfer & Gala Dinner",
+      "descrizione": "Ristorante Vinicio",
+      "inizio": "19:30",
+      "durata": 2.5,
+      "color": "#ff8400",
+      "url": "https://goo.gl/maps/zNcmetWsJTKynhPS8"
+    },
+    {
+      "titolo": "After Party",
+      "descrizione": "Ristorante Vinicio",
+      "inizio": "22:00",
+      "durata": 4.5,
+      "color": "#FF0086",
+      "url": "https://goo.gl/maps/zNcmetWsJTKynhPS8"
+
+    },
+    {
+      "titolo": "Bus Transfer back to Hotel Tiby",
+      "descrizione": "",
+      "url": "",
+      "inizio": "02:30",
+      "durata": 0.5,
+      "color": "#F1A7DC"
+    },
+    {
+      "titolo": "blank",
+      "descrizione": "Dipartimento di Giurisprudenza",
+      "url": "https://goo.gl/maps/woACERYZu9brvvdVA",
+      "inizio": "3:00",
+      "durata": 0.1,
+      "color": "#005BFF"
+    }
+  ],
+  "15": [
+    {
+      "titolo": "Breakfast",
+      "descrizione": "Hotel Tiby",
+      "inizio": "8:00",
+      "durata": 2,
+      "color": "#ff8400",
+      "url": "https://goo.gl/maps/BT9mweSuVankRw3E7"
+    },
+    {
+      "titolo": "Workshop #3",
+      "descrizione": "Camera di Commercio",
+      "url": "https://goo.gl/maps/EByf3FbYDy6GKpgq9",
+      "inizio": "10:00",
+      "durata": 1,
+      "color": "#ffcc00"
+    },
+    {
+      "titolo": "Coffee Break",
+      "descrizione": "Camera di Commercio",
+      "url": "https://goo.gl/maps/EByf3FbYDy6GKpgq9",
+      "inizio": "11:00",
+      "durata": 0.5,
+      "color": "#ff8400"
+    },
+    {
+      "titolo": "Closing Ceremony & Awards Ceremony",
+      "descrizione": "Camera di Commercio",
+      "url": "https://goo.gl/maps/EByf3FbYDy6GKpgq9",
+      "inizio": "11:30",
+      "durata": 1.5,
+      "color": "#00C3FF"
+    },
+    {
+      "titolo": "Free time",
+      "descrizione": "",
+      "url": "",
+      "inizio": "13:00",
+      "durata": 2,
+      "color": "#F1A7DC"
+    },
+    {
+      "titolo": "Cultural tour",
+      "descrizione": "Modena centro",
+      "inizio": "15:00",
+      "durata": 2.5,
+      "color": "#da0008",
+      "url": "https://goo.gl/maps/BVf6m5qUfv6v24kk9"
+    },
+    {
+      "titolo": "blank",
+      "descrizione": "Camera di Commercio",
+      "url": "https://goo.gl/maps/EByf3FbYDy6GKpgq9",
+      "inizio": "17:30",
+      "durata": 0.1,
+      "color": "#AB68FF"
+    }
+  ]
+}
