@@ -1,6 +1,31 @@
+<div align="center">
+
+<img alt="Logo" width="150" src="public/logoJeiom.svg?raw=true">
+
+<h1>JEIOM23</h1>
+
+#### JEIOM23 is a dynamic website designed specifically for the JEIOM 2023 event. It provides users with convenient access to the event's schedule, comprehensive information about the event itself, and recommendations on must-see attractions and experiences. Our dedicated team utilized a powerful tech stack comprising React, TailwindCSS, and NodeJS to develop this feature-rich website, ensuring a seamless and immersive user experience.
+
+</div>
+
+---
+
+### Screenshots
+
+<img alt="Screenshot 1" src="https://i.imgur.com/apa36gM.png?raw=true">
+<img alt="Screenshot 2" src="https://i.imgur.com/86tvggz.png?raw=true">
+<img alt="Screenshot 3" src="https://i.imgur.com/FvOm6kL.png?raw=true">
+<img alt="Screenshot 4" src="https://i.imgur.com/2lh3ilq.png?raw=true">
+<img alt="Screenshot 5" src="https://i.imgur.com/CDk9U5P.png?raw=true">
+<img alt="Screenshot 6" src="https://i.imgur.com/WQB2yzk.png?raw=true">
+
+---
+
+## Build
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+### Getting Started
 
 First, run the development server:
 
@@ -23,7 +48,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+### Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
